@@ -7,7 +7,7 @@
     --fourth-text-color: #212121;
     --accent-color: #2196F3;
     --main-btn-color:#ffffff;
-    --second-btn-color:#212121;
+    --second-btn-color:#2196F3;
     --header-text-color:#212121;
 }
 body{
@@ -18,7 +18,8 @@ body{
 }
 .link{
     text-decoration: none;
-}
+} 
+/*-----------header------------------------------*/
 .header-link{
     font-weight: 500;
     font-size: 14px;
@@ -26,10 +27,51 @@ body{
     letter-spacing: 0.02em;
     color: var(--header-text-color);
 }
+.header-link:hover,
+.header-link:focus{
+    color:var(--accent-color);
+}
+.header-contact:hover,
+.header-contact:focus{
+    color:var(--accent-color);}
+
 .header-contact{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+}
+/*-----------banner------------------------------*/
+.baner{
+    background-color:#2F303A;
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+.btn-baner{ 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
+    background-color: var(--second-btn-color);
+    /*---пока не понятно надо ли---/*/
+    /*position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;*/
+    /*---пока не понятно надо ли---/*/
 }
