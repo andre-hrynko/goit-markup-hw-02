@@ -159,3 +159,18 @@ footer {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+/*-----------------portfolio------------------------------------------*/
+.btn-portf {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+.btn-portf:hover,
+.btn-portf:focus {
+  background-color: #2196f3;
+  color: var(--main-btn-color);
+}
